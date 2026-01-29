@@ -1,0 +1,139 @@
+/***************
+ * progressbar *
+ ***************/
+.progressbar,
+.progressbar row,
+.progressbar row:hover,
+.progressbar row:selected,
+.progressbar row:selected:focus {
+    background-image: url("assets/progress.png");
+    background-repeat: repeat-x;
+}
+
+.progressbar.vertical {
+    background-image: url("assets/progress-vertical.png");
+    background-repeat: repeat-y;
+}
+
+/*******************
+ * check and radio *
+ *******************/
+/* draw regular check and radio items using our assets */
+.check,
+.check row:selected,
+.check row:selected:focus {
+    background-image: url("assets/checkbox-unchecked.png");
+}
+
+.check:disabled,
+.check row:selected:disabled,
+.check row:selected:focus:disabled {
+    background-image: url("assets/checkbox-unchecked-insensitive.png");
+}
+
+.check:active, .check:checked,
+.check row:selected:active, .check row:selected:checked,
+.check row:selected:focus:active, .check row:selected:focus:checked {
+    background-image: url("assets/checkbox-checked.png");
+}
+
+.check:active:disabled, .check:checked:disabled,
+.check row:selected:active:disabled, .check row:selected:checked:disabled,
+.check row:selected:focus:active:disabled, .check row:selected:focus:checked:disabled {
+    background-image: url("assets/checkbox-checked-insensitive.png");
+}
+
+.check:indeterminate,
+.check row:selected:indeterminate,
+.check row:selected:focus:indeterminate {
+    background-image: url("assets/checkbox-mixed.png");
+}
+
+.check:indeterminate:disabled,
+.check row:selected:indeterminate:disabled,
+.check row:selected:focus:indeterminate:disabled {
+    background-image: url("assets/checkbox-mixed-insensitive.png");
+}
+
+.radio,
+.radio row:selected,
+.radio row:selected:focus {
+    background-image: url("assets/radio-unselected.png");
+}
+
+.radio:disabled,
+.radio row:selected:disabled,
+.radio row:selected:focus:disabled {
+    background-image: url("assets/radio-unselected-insensitive.png");
+}
+
+.radio:active, .radio:checked,
+.radio row:selected:active, .radio row:selected:checked,
+.radio row:selected:focus:active, .radio row:selected:focus:checked {
+    background-image: url("assets/radio-selected.png");
+}
+
+.radio:active:disabled, .radio:checked:disabled,
+.radio row:selected:active:disabled, .radio row:selected:checked:disabled,
+.radio row:selected:focus:active:disabled, .radio row:selected:focus:checked:disabled {
+    background-image: url("assets/radio-selected-insensitive.png");
+}
+
+.radio:indeterminate,
+.radio row:selected:indeterminate,
+.radio row:selected:focus:indeterminate {
+    background-image: url("assets/radio-mixed.png");
+}
+
+.radio:indeterminate:disabled,
+.radio row:selected:indeterminate:disabled,
+.radio row:selected:focus:indeterminate:disabled {
+    background-image: url("assets/radio-mixed-insensitive.png");
+}
+
+.menuitem.check:active, .menuitem.check:checked {
+    background-image: url("assets/menuitem-checkbox-checked.png");
+}
+
+.menuitem.check:active:hover, .menuitem.check:checked:hover {
+    background-image: url("assets/menuitem-checkbox-checked-selected.png");
+}
+
+.menuitem.check:active:disabled, .menuitem.check:checked:disabled {
+    background-image: url("assets/menuitem-checkbox-checked-insensitive.png");
+}
+
+.menuitem.check:indeterminate:hover,
+.menuitem.radio:indeterminate:hover {
+    background-image: url("assets/menuitem-checkbox-mixed-selected.png");
+}
+
+.menuitem.check:indeterminate,
+.menuitem.radio:indeterminate {
+    background-image: url("assets/menuitem-checkbox-mixed.png");
+}
+
+.menuitem.check:indeterminate:disabled,
+.menuitem.radio:indeterminate:disabled {
+    background-image: url("assets/menuitem-checkbox-mixed-insensitive.png");
+}
+
+.menuitem.radio:active, .menuitem.radio:checked {
+    background-image: url("assets/menuitem-radio-checked.png");
+}
+
+.menuitem.radio:active:hover, .menuitem.radio:checked:hover {
+    background-image: url("assets/menuitem-radio-checked-selected.png");
+}
+
+.menuitem.radio:active:disabled, .menuitem.radio:checked:disabled {
+    background-image: url("assets/menuitem-radio-checked-insensitive.png");
+}
+
+iconview.content-view.cell.check {
+    background-image: url("assets/grid-selection-unchecked.png");
+}
+
+iconview.content-view.cell.check:active, iconview.content-view.cell.check:checked {
+    background-image: url("assets/grid-selection-checked.png");
+}
